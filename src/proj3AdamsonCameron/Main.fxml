@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   - File: proj2AdamsonBeckCameron.Main.fxml
+   - Names: Jake Adamson, Charlie Beck, Nicholas Cameron
+   - Class: CS361
+   - Project: 2
+   - Date: September 22, 2016
+   -->
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.76-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj2AdamsonBeckCameron.Main">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="closeMenuItem" mnemonicParsing="false"
+                                  onAction="#close" text="Exit" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <HBox id="hbox" alignment="CENTER" spacing="10">
+            <children>
+                <Button fx:id="playButton" mnemonicParsing="false" onAction="#playButtonHandler"
+                        id="play-button" text="Play scale" />
+                <Button fx:id="stopButton" mnemonicParsing="false" onAction="#stopButtonHandler"
+                        id="stop-button" text="Stop playing" />
+            </children>
+        </HBox>
+    </center>
+</BorderPane>

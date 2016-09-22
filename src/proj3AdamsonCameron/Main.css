@@ -1,0 +1,15 @@
+/*
+ * File: proj2AdamsonBeckCameron.Main.css
+ * Names: Jake Adamson, Charlie Beck, Nicholas Cameron
+ * Class: CS361
+ * Project: 2
+ * Date: September 22, 2016
+ */
+
+#play-button {
+    -fx-base: #b6e7c9
+}
+
+#stop-button {
+    -fx-base: #ff0000
+}
